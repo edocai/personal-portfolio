@@ -12,7 +12,7 @@
 ⚡️ One Page Layout\
 ⚡️ Designed with Bootstrap + Custom CSS\
 ⚡️ Fully Responsive\
-⚡️ Mobile friendly\
+⚡️ Mobile friendly
 
 ### Hosted/Deployed on
 
