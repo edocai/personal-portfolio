@@ -18,4 +18,4 @@
 
 ⚡️ Netlify
 
-To view demo: [click here.](https://face-recog-application.herokuapp.com/)
+To view demo: [click here.](https://alibrahim.netlify.app/)
