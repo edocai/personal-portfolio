@@ -1,7 +1,7 @@
 ## My Personal Portfolio
 
 <h2 align="center">
-  <img src="/assets/img/animation.gif" alt="" width="600px" />
+  <img src="/assets/img/Animation.gif" alt="" width="600px" />
   <br>
 </h2>
 
