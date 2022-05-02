@@ -417,7 +417,7 @@ button:not(:disabled) {
 .svg9:after {
   content: "";
   position: absolute;
-  background: #03C03C;
+  background: #4078c0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -425,39 +425,23 @@ button:not(:disabled) {
   z-index: -2;
   transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
 }
-
-.svg10:after {
-  content: "";
-  position: absolute;
-  background: #5D76A9;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 100%;
-  z-index: -2;
-  transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
-}
-
 
 .svg:hover, .svg2:hover, .svg3:hover, 
 .svg4:hover, .svg5:hover, .svg6:hover, 
-.svg7:hover, .svg8:hover, .svg9:hover,
-.svg10:hover {
+.svg7:hover, .svg8:hover, .svg9:hover {
   color: white;
   border: 0px #d19b26 solid;
 }
 
 .svg:hover:before, .svg2:hover:before, .svg3:hover:before, 
 .svg4:hover:before, .svg5:hover:before, .svg6:hover:before, 
-.svg7:hover:before, .svg8:hover:before, .svg9:hover:before,
-.svg10:hover:before {
+.svg7:hover:before, .svg8:hover:before, .svg9:hover:before {
   opacity: .8;
 }
 
 .svg:hover:after, .svg2:hover:after, .svg3:hover:after, 
 .svg4:hover:after, .svg5:hover:after, .svg6:hover:after, 
-.svg7:hover:after, .svg8:hover:after, .svg9:hover:after,
-.svg10:hover:after {
+.svg7:hover:after, .svg8:hover:after, .svg9:hover:after {
   top: 0;
 }
 
