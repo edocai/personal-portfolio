@@ -832,10 +832,6 @@ p {
   margin: 0 0 15px 0;
 }
 
-#footer .social-links {
-  margin: 0 0 40px 0;
-}
-
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -866,5 +862,5 @@ p {
 
 #footer .credits {
   font-size: 14px;
-  margin-top: 20px;
+  padding: 20px;
 }
