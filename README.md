@@ -1,7 +1,7 @@
 ## My Personal Portfolio
 
 <h2 align="center">
-  <img src="/assets/img/portfolio.webp" alt="" width="600px" />
+  <img src="/assets/img/portfolio.webp" alt="" width="600px" height="350px" />
   <br>
 </h2>
 
