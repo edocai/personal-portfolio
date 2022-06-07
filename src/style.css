@@ -486,6 +486,7 @@ button:not(:disabled) {
   height: auto;
   border: 1px solid #f8f9fa;
   transition: all .6s;
+  opacity: 0.85;
 }
 
 .projects .project-item .hover-items {
