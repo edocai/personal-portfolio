@@ -8,7 +8,7 @@
 ### Built with
 
 ⚡️ HTML\
-⚡️ Designed with Bootstrap + Custom CSS\
+⚡️ Designed with Bootstrap + Custom SCSS\
 ⚡️ JS
 
 ### Features
