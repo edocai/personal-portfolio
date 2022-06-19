@@ -15,7 +15,7 @@
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="assets/vendor/bootstrap/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
-    <link href="./src/style.css" rel="stylesheet" />
+    <link href="./src/dist/css/style.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -35,7 +35,7 @@
             <li><a class="scrollto" href="#about">About</a></li>
             <li><a class="scrollto" href="#contact">Contact</a></li>
             <a rel="noreferrer" target="_blank" class="cta-about"  href="assets/CV.pdf"
-            style="margin: 5px; font-size: 18px; "data-aos="fade-right" data-aos-delay="600">View CV</a>
+            style="margin: 5px; font-size: 18px; font-weight: 550; "data-aos="fade-right" data-aos-delay="600">View CV</a>
           </ul>
         </div>
       </nav>
@@ -47,7 +47,7 @@
         <h1>Hello, I'm <span style="color: #f80759;">Ali Ibrahim 👋</span></h1>
         <p>
           I'm a
-          <span class="typed" data-typed-items="Front-end Developer, Web Developer"></span>
+          <span class="typed" data-typed-items="Frontend Developer, Web Developer"></span>
         </p>
         <div class="social-links">
           <a href="https://www.linkedin.com/in/aliaih/" target="_blank"><i class="bi bi-linkedin"></i></a>
@@ -55,7 +55,7 @@
         </div>
         <div class="kmbtn">
           <p data-aos="fade-left" data-aos-delay="400">
-            <a rel="noreferrer" class="cta-about scrollto" href="#projects">View Projects</a>
+            <a rel="noreferrer" class="cta-about scrollto" style="font-weight: 500;" href="#projects">View Projects</a>
           </p>
         </div>
       </div>
@@ -71,50 +71,57 @@
           </div>
           <div class="projects">             
             <div class="project-item">
-              <div class="image">
-                <img src="assets/img/smartbrain.webp" width="100%" background-size="contain" alt="">
+              <div class="image" data-aos="fade-up">
+                    <img src="assets/img/showbox.webp" width="100%" background-size="contain" alt="">
+                </div>
+                <div class="hover-items">
+                  <h3>ShowBox</h3>
+                  <p class="desc">An application where you can find your next tv show to binge.</p>
+                </div>
               </div>
-              <div class="hover-items">
-                <h3>Smart Brain</h3>
-                    <p class="desc">A fully functional <b>fullstack</b> web application that can detect <b>multiple</b> faces.</p>
-                  </div>
+              <div class="description" data-aos="fade-up">
+                <h4 style="margin-top: 8px;">// Tech stack</h4>
+                <div class="stack" data-aos="fade-up">
+                  <div>TypeScript</div>
+                  <div>React</div>
+                  <div>styled-components</div>
+                  <div>Webpack</div>
+                  <div>Babel</div>
+                  <div>Netlify</div>
                 </div>
-                <div class="description">
-                  <h4 style=" margin-top: 8px; padding-left: 15px;">Built with</h4>
-                  <div class="stack">
-                    <i class="devicon-react-original-wordmark colored"></i>
-                    <i class="devicon-nodejs-plain-wordmark colored"></i>
-                    <i class="devicon-postgresql-plain-wordmark colored"></i>
-                  </div>
-                  <div class="works">
-                    <a class="work" target="_blank" href="https://github.com/edocai/face-recognition-app" style="padding-left: 8px;">View Code <i class="bi bi-github"></i></a>
-                    <a class="work" target="_blank" href="https://face-recog-application.herokuapp.com/" style="padding-left: 40px;">View Demo <i class="bi bi-link-45deg"></i></a>
-                  </div>
+                <h4 style="margin-top: 8px;">// See it in action</h4>
+                <div class="works" data-aos="fade-up">
+                  <a class="work" target="_blank" href="https://github.com/edocai/showbox" style="padding-left: 8px;">View Code <i class="bi bi-github"></i></a>
+                  <a class="work" target="_blank" href="https://showbox-app.netlify.app/" style="padding-left: 40px;">View Demo <i class="bi bi-link-45deg"></i></a>
                 </div>
-
-                <div class="project-item">
-                  <div class="image">
+              </div>
+              
+              <div class="project-item">
+                  <div class="image" data-aos="fade-up">
                       <img src="assets/img/gtf.webp" width="100%" background-size="contain" alt="">
                   </div>
                   <div class="hover-items">
-                      <h3>Guess the Flag!</h3>
+                    <h3>Guess the Flag!</h3>
                       <p class="desc">A fun little game, I made using <b>reactJS</b> and <b>material-UI</b> for the styling, to test your geography knowledge.</p>
                     </div>
                   </div>
-              <div class="description">
-                  <h4 style=" margin-top: 8px; padding-left: 15px;">Built with</h4>
-                  <div class="stack">
-                    <i class="devicon-react-original-wordmark colored"></i>
-                    <i class="devicon-materialui-plain colored"></i>
-                  </div>
-                  <div class="works">
+              <div class="description" data-aos="fade-up">
+                <h4 style="margin-top: 8px;">// Tech stack</h4>
+                <div class="stack" data-aos="fade-up">
+                  <div>React</div>
+                  <div>Material-UI</div>
+                  <div>react-router</div>
+                  <div>Netlify</div>
+                </div>
+                <h4 style="margin-top: 8px;">// See it in action</h4>
+                  <div class="works" data-aos="fade-up">
                     <a class="work" target="_blank" href="https://github.com/edocai/guess-the-flag" style="padding-left: 8px;">View Code <i class="bi bi-github"></i></a>
                     <a class="work" target="_blank" href="https://gtf-game.netlify.app/" style="padding-left: 40px;">View Demo <i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
                 
                 <div class="project-item">
-            <div class="image">
+            <div class="image" data-aos="fade-up">
               <img src="assets/img/portfolio.webp" width="100%" background-size="contain" alt="">
             </div>
             <div class="hover-items">
@@ -122,41 +129,45 @@
                   <p class="desc">A fully responsive <b>modern UI</b> design, <b>one-page layout,</b> portfolio styled using Bootstrap.</p>
                 </div>
               </div>
-              <div class="description">
-                <h4 style=" margin-top: 8px; padding-left: 15px;">Built with</h4>
-                <div class="stack">
-                  <i class="devicon-html5-plain-wordmark colored"></i>
-                  <i class="devicon-css3-plain-wordmark colored"></i>
-                  <i class="devicon-bootstrap-plain-wordmark colored"></i>
-                  <i class="devicon-javascript-plain colored"></i>
+              <div class="description" data-aos="fade-up">
+                <h4 style="margin-top: 8px;">// Tech stack</h4>
+                <div class="stack" data-aos="fade-up">
+                  <div>HTML</div>
+                  <div>SCSS</div>
+                  <div>Bootstrap</div>
+                  <div>JavaScript</div>
+                  <div>Netlify</div>
                 </div>
-                <div class="works">
+                <h4 style="margin-top: 8px;">// See it in action</h4>
+                <div class="works" data-aos="fade-up">
                   <a class="work" target="_blank" href="https://github.com/edocai/personal-portfolio" style="padding-left: 8px;">View Code <i class="bi bi-github"></i></a>
                 </div>
               </div>
               
-              
               <div class="project-item">
-                <div class="image">
-                      <img src="assets/img/landingpage.webp" width="100%" background-size="contain" alt="">
-                  </div>
-                  <div class="hover-items">
-                    <h3>Landing Page</h3>
-                    <p class="desc">A simple landing page, with a clean dark mode transition, made to practice and showcase my SCSS and design skills.</p>
-                  </div>
+                <div class="image" data-aos="fade-up">
+                  <img src="assets/img/smartbrain.webp" width="100%" background-size="contain" alt="">
                 </div>
-                <div class="description">
-                  <h4 style="margin-top: 8px; padding-left: 15px;">Built with</h4>
-                  <div class="stack">
-                    <i class="devicon-html5-plain-wordmark colored"></i>
-                    <i class="devicon-sass-original colored"></i>
-                    <i class="devicon-javascript-plain colored"></i>
+                <div class="hover-items">
+                  <h3>Smart Brain</h3>
+                      <p class="desc">A fully functional <b>fullstack</b> web application that can detect <b>multiple</b> faces.</p>
+                    </div>
                   </div>
-                  <div class="works">
-                    <a class="work" target="_blank" href="https://github.com/edocai/landing-page" style="padding-left: 8px;">View Code <i class="bi bi-github"></i></a>
-                    <a class="work" target="_blank" href="https://landing-page-ss.netlify.app/" style="padding-left: 40px;">View Demo <i class="bi bi-link-45deg"></i></a>
-                  </div>
+                  <div class="description" data-aos="fade-up">
+                <h4 style="margin-top: 8px;">// Tech stack</h4>
+                <div class="stack" data-aos="fade-up">
+                  <div>React</div>
+                  <div>Node</div>
+                  <div>Express</div>
+                  <div>Postgresql</div>
+                  <div>Heroku</div>
                 </div>
+                <h4 style="margin-top: 8px;">// See it in action</h4>
+                    <div class="works" data-aos="fade-up">
+                      <a class="work" target="_blank" href="https://github.com/edocai/face-recognition-app" style="padding-left: 8px;">View Code <i class="bi bi-github"></i></a>
+                      <a class="work" target="_blank" href="https://face-recog-application.herokuapp.com/" style="padding-left: 40px;">View Demo <i class="bi bi-link-45deg"></i></a>
+                    </div>
+                  </div>
             </div>
         </section>
       </div>
@@ -169,18 +180,24 @@
           <div class="section-title">
             <h2>Skills</h2>
           </div>
-          <div class="buttons container"> 
-            <button class="svg">HTML</button>
-            <button class="svg2">CSS</button>
-            <button class="svg4">Sass</button>
-            <button class="svg8">Git</button>
+          <div class="skills__lo">
+            <h3 data-aos="fade-up">Frontend</h3>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-react-original-wordmark colored"></i>
+            <i class="devicon-typescript-plain colored"></i>
+            <i class="devicon-materialui-plain colored"></i>
+            <i class="devicon-sass-original colored"></i>
+            <i class="devicon-bootstrap-plain colored"></i>
+            <h3 data-aos="fade-up">Backend</h3>
+            <i class="devicon-nodejs-plain-wordmark colored"></i>
+            <i class="devicon-express-original-wordmark"></i>
+            <i class="devicon-postgresql-plain-wordmark colored"></i>            
+            <h3 data-aos="fade-up">Tools</h3>
+            <i class="devicon-git-plain colored"></i>
+            <i class="devicon-github-original"></i>
+            <i class="devicon-webpack-plain colored"></i>
+            <i class="devicon-heroku-plain-wordmark colored"></i>
           </div>
-          <div class="buttons container" >
-            <button class="svg6">ReactJs</button>
-            <button class="svg3">Bootstrap</button>
-            <button class="svg5">JavaScript</button>
-            <button class="svg7">Material UI</button>
-            </div>
           </div>
       </section>
       <!------- End Skills Section ------->
@@ -203,7 +220,7 @@
               </p>
                 <p style="padding-top: 12px;">
                   My hobbies include being laid up on
-                  my couch watching <img src="/assets/img/netflix.webp" style="width: 65px" alt=""> or gaming with my friends. 
+                  my couch watching <img src="/assets/img/netflix.webp" style="width: 55px" alt=""> or gaming with my friends. 
                 </p>
             </div>
           </div>
@@ -265,6 +282,6 @@
     <!--------------------- JS Files -------------------->
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/typed.js/typed.min.js"></script>
-    <script src="./src/main.js"></script>
+    <script src="./src/dist/main.js"></script>
   </body>
 </html>
