@@ -252,6 +252,17 @@ section {
 }
 
 /*--------------------------------------------------------------
+                        About
+--------------------------------------------------------------*/
+.content__about {
+  margin: 0 60px;
+  font-size: 20px;
+  font-weight: 500;
+  overflow-wrap: break-word;
+  line-height: 26px;
+}
+
+/*--------------------------------------------------------------
                         Projects
 --------------------------------------------------------------*/
 .projects .project-item {
@@ -304,6 +315,7 @@ section {
 
 .desc {
   font-size: 1.5rem;
+  padding: 0 10px 0 10px;
   text-align: center;
   color: #f8f9fa;
 }
@@ -583,6 +595,13 @@ a {
     display: inline-block;
     font-size: 50px;
   }
+  .content__about {
+    margin-left: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    width: 100%;
+    line-height: 26px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -615,10 +634,6 @@ a {
     font-size: 22px;
     line-height: 24px;
   }
-  .content {
-    margin-left: 0px;
-    line-height: 30px;
-  }
 }
 
 @media (max-width: 780px) {
@@ -649,21 +664,11 @@ a {
 
 @media (min-width: 1200px) {
   .wrapper {
-    max-width: 1140px;
+    max-width: 900px;
   }
 }
 
 @media (max-width: 992px) {
-  .cont-details p {
-    font-size: 16px;
-  }
-  .cont-details p a {
-    font-size: 16px;
-  }
-  .cont-details h5 {
-    font-size: 32px;
-    line-height: 35px;
-  }
   .contact-view {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;

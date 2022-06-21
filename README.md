@@ -13,7 +13,7 @@
 
 ### Features
 
-⚡️ Modern UI Design\
+⚡️ Simple and clean Design\
 ⚡️ Reveal Animations from AOS library\
 ⚡️ One Page Layout\
 ⚡️ Fully Responsive
