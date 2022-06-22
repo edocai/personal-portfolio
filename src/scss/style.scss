@@ -175,22 +175,6 @@ body {
     margin-top: 25px;
 }
 
-.cta-about {
-    border-color: #f80759;
-    font-size: 24px;
-    font-weight: 545;
-    border-radius: 5px;
-    color: #fff;
-    box-shadow: 0 0 40px 40px #f80759 inset, 0 0 0 0 #f80759;
-    transition: all .2s ease-in-out;
-    padding: 8px !important;
-
-    &:hover {
-        box-shadow: 0 0 10px 0 #f80759 inset, 0 0 10px 4px #f80759;
-        color: #f8f9fa;
-    }
-}
-
 .btn__projects {
     border: 0 solid;
     box-sizing: border-box;
@@ -692,14 +676,7 @@ a {
                 }
             }
         }
-
-        .cta-about {
-            width: 50%;
-            position: relative;
-            left: 25%;
-            text-align: center;
-        }
-    }
+}
 
     .navbar-links.active {
         display: flex;

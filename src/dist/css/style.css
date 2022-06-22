@@ -191,25 +191,6 @@ body {
   margin-top: 25px;
 }
 
-.cta-about {
-  border-color: #f80759;
-  font-size: 24px;
-  font-weight: 545;
-  border-radius: 5px;
-  color: #fff;
-  -webkit-box-shadow: 0 0 40px 40px #f80759 inset, 0 0 0 0 #f80759;
-          box-shadow: 0 0 40px 40px #f80759 inset, 0 0 0 0 #f80759;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-  padding: 8px !important;
-}
-
-.cta-about:hover {
-  -webkit-box-shadow: 0 0 10px 0 #f80759 inset, 0 0 10px 4px #f80759;
-          box-shadow: 0 0 10px 0 #f80759 inset, 0 0 10px 4px #f80759;
-  color: #f8f9fa;
-}
-
 .btn__projects {
   border: 0 solid;
   -webkit-box-sizing: border-box;
@@ -774,12 +755,6 @@ a {
   }
   .navbar-links ul li a {
     padding: .5rem 1rem;
-  }
-  .navbar-links .cta-about {
-    width: 50%;
-    position: relative;
-    left: 25%;
-    text-align: center;
   }
   .navbar-links.active {
     display: -webkit-box;
