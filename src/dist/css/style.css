@@ -192,102 +192,40 @@ body {
 }
 
 .btn__projects {
-  border: 0 solid;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-appearance: button;
-  color: #fffdff;
-  font-size: 25px;
-  font-weight: 900;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  text-transform: uppercase;
-  --background: rgb(14, 16, 18);
+  border: 1px solid #f80759;
   background: none;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: 550;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  color: #fff;
   overflow: hidden;
-  padding: 0.4rem 2rem;
-  position: relative;
 }
 
-.btn__projects * {
-  border: 0 solid;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.btn__projects:hover {
+  color: #f80757;
 }
 
-.btn__projects:after {
-  border: 0 solid;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  --tilt: 20px;
-  background: #fff;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
+.btn__projects:hover::before {
+  height: 0%;
+}
+
+.btn__projects::before {
   content: "";
-  display: block;
-  height: 100%;
-  left: 0;
   position: absolute;
-  top: 0;
-  -webkit-transition: -webkit-clip-path 0.2s ease;
-  transition: -webkit-clip-path 0.2s ease;
-  transition: clip-path 0.2s ease;
-  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
-  width: 100%;
-  z-index: -1;
-  --thickness: 2px;
-  background: var(--background);
-  height: calc(100% - var(--thickness) * 2);
-  left: var(--thickness);
-  top: var(--thickness);
-  width: calc(100% - var(--thickness) * 2);
-}
-
-.btn__projects:before {
-  border: 0 solid;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  --tilt: 20px;
-  background: #fff;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
-  content: "";
-  display: block;
-  height: 100%;
   left: 0;
-  position: absolute;
-  top: 0;
-  -webkit-transition: -webkit-clip-path 0.2s ease;
-  transition: -webkit-clip-path 0.2s ease;
-  transition: clip-path 0.2s ease;
-  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
   width: 100%;
-  z-index: -1;
-}
-
-.btn__projects span {
-  display: block;
-  position: relative;
-  -webkit-transition: -webkit-transform 0.2s ease;
-  transition: -webkit-transform 0.2s ease;
-  transition: transform 0.2s ease;
-  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
-}
-
-.btn__projects:hover span {
-  -webkit-transform: translateX(-15px);
-          transform: translateX(-15px);
-}
-
-.btn__projects:hover:after {
-  -webkit-clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 50%, calc(100% - var(--tilt)) 100%, 0 100%);
-          clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 50%, calc(100% - var(--tilt)) 100%, 0 100%);
-}
-
-.btn__projects:hover:before {
-  -webkit-clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 50%, calc(100% - var(--tilt)) 100%, 0 100%);
-          clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 50%, calc(100% - var(--tilt)) 100%, 0 100%);
+  height: 0%;
+  background: #f80757;
+  z-index: -12;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  bottom: 0;
+  border-radius: 0% 0% 0 0;
+  height: 180%;
 }
 
 .btn__cv {

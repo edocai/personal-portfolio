@@ -176,85 +176,37 @@ body {
 }
 
 .btn__projects {
-    border: 0 solid;
-    box-sizing: border-box;
-    -webkit-appearance: button;
-    color: #fffdff;
-    font-size: 25px;
-    font-weight: 900;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-    --background: rgb(14, 16, 18);
+    border: 1px solid #f80759;
     background: none;
-    overflow: hidden;
-    padding: 0.4rem 2rem;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: 0.5s;
     position: relative;
-
-    * {
-        border: 0 solid;
-        box-sizing: border-box;
-    }
-
-    &:after {
-        border: 0 solid;
-        box-sizing: border-box;
-        --tilt: 20px;
-        background: #fff;
-        clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
-        content: "";
-        display: block;
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        transition: clip-path 0.2s ease;
-        width: 100%;
-        z-index: -1;
-        --thickness: 2px;
-        background: var(--background);
-        height: calc(100% - var(--thickness) * 2);
-        left: var(--thickness);
-        top: var(--thickness);
-        width: calc(100% - var(--thickness) * 2);
-    }
-
-    &:before {
-        border: 0 solid;
-        box-sizing: border-box;
-        --tilt: 20px;
-        background: #fff;
-        clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
-        content: "";
-        display: block;
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        transition: clip-path 0.2s ease;
-        width: 100%;
-        z-index: -1;
-    }
-
-    span {
-        display: block;
-        position: relative;
-        transition: transform 0.2s ease;
-    }
-
+    color: #fff;
+    overflow: hidden;
+    
     &:hover {
-        span {
-            transform: translateX(-15px);
+        color: #f80757;
+        
+        &::before {
+            height: 0%;
         }
-
-        &:after {
-            clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 50%, calc(100% - var(--tilt)) 100%, 0 100%);
-        }
-
-        &:before {
-            clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 50%, calc(100% - var(--tilt)) 100%, 0 100%);
-        }
+    }
+    
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        background: #f80757;
+        z-index: -12;
+        transition: 0.5s;
+        bottom: 0;
+        border-radius: 0% 0% 0 0;
+        height: 180%;
     }
 }
 
