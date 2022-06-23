@@ -624,7 +624,7 @@ a {
                 text-align: center;
 
                 a {
-                    padding: .5rem 1rem;
+                    padding: .8rem 1rem;
                 }
             }
         }
@@ -651,6 +651,11 @@ a {
         font-weight: 500;
         width: 100%;
         line-height: 26px;
+    }
+    .btn__cv {
+        width: 50%;
+        padding: 5px;
+        margin: 0 auto;
     }
 }
 
