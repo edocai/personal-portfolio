@@ -5,21 +5,29 @@
   <br>
 </h2>
 
-## Built with
+My personal portfolio website built using HTML, SCSS, JavaScript.
 
-⚡️ HTML\
-⚡️ Designed with Bootstrap + Custom SCSS\
-⚡️ JS
+### Features
+One-page layout\
+Fully responsive design\
+Simple and clean user interface\
+Reveal animations with AOS library\
+Deployed on Netlify
 
-## Features
+### Technologies
+HTML\
+SCSS\
+JavaScript\
+AOS library\
+Netlify
 
-⚡️ Simple and Clean Design\
-⚡️ Reveal Animations from AOS library\
-⚡️ One Page Layout\
-⚡️ Fully Responsive
+### Design
+The website features a minimalist design, making it easy to navigate and showcasing my work and personal details in a clear and concise way. The use of reveal animations with the AOS library adds a subtle touch of interactivity to the site.
 
-## Hosted/Deployed on
+### Deployment
+The website is deployed on Netlify, a popular platform for hosting static websites. This ensures a fast and reliable hosting experience for visitors.
 
-⚡️ Netlify
+### Summary
+This personal portfolio website is a great way to showcase my work and personal details in a simple and professional manner.
 
 To view demo: [click here.](https://alibrahim.netlify.app/)
